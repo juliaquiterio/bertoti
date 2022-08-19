@@ -2,3 +2,14 @@ We see three critical differences between programming and software engineering: 
 
 Bom a engenharia de software vemos claramente que como muitos pensam e resumem em uma só palavra "programação" mas vai muito além disso,  por exemplo  a engenharia  ela depende de tomada de decisões, já  a programação do desenvolvimento. Vemos então que a engenharia depende de  mais "eventos" que a programação em si. Elas se complementa porém tem suas diferenças. Vemos que muitas pessoas dizem   "Java é melhor que Ptyhon" ou vice-versa, mas temos que entender que cada  linguagem foi desenvolvida com um objetivo que as a outra não satisfaz, e que ao tentarmos defender vemos que não iremos chegar a lugar nenhum porque como foi falado cada uma tem uma função. A escala bem analisada ao fazer um software é de suma importância, vemos ai então a parte que elas se complementam. 
 
+CICLO DE VIDA - "VESTIBULINHO ETEC"
+
+REQUISITOS:
+- FUNCIONAIS: 
+* O candidato do Vestibulinho  (ator) poderá cadastrar Dados pessoais inserindo Nome Completo, Cidade, Estado, Endereço, Telefone e CPF.
+
+- NÃO FUNCIONAIS:
+
+ARQUITETURA DO SISTEMA:
+
+IMPLEMENTAÇÃO:
