@@ -7,8 +7,13 @@ CICLO DE VIDA - "VESTIBULINHO ETEC"
 REQUISITOS:
 - FUNCIONAIS: 
 * O candidato do Vestibulinho  (ator) poderá cadastrar Dados pessoais inserindo Nome Completo, Cidade, Estado, Endereço, Telefone e CPF.
+*  O candidato poderá gerar o boleto no momento em que concluir sua inscrição
+*  O candidato poderá ver provas anteriores para caso queira estudar
 
 - NÃO FUNCIONAIS:
+* Usabilidade : tela simples para o usuário de forma prática e rápida
+* Desempenho
+* Compatibilidade
 
 ARQUITETURA DO SISTEMA:
 
