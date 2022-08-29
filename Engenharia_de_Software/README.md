@@ -16,5 +16,6 @@ REQUISITOS:
 * Compatibilidade
 
 ARQUITETURA DO SISTEMA:
+![Screenshot](logo.png)</br>
 
 IMPLEMENTAÇÃO:
