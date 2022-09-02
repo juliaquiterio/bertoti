@@ -16,7 +16,7 @@ REQUISITOS:
 * Compatibilidade
 
 ARQUITETURA DO SISTEMA:
-![Screenshot](CASO_USO.jpg)</br>
+![Screenshot](CASO_USO.drawio.png)</br>
 
 IMPLEMENTAÇÃO:
 
