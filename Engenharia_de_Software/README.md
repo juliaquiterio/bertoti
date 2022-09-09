@@ -13,7 +13,7 @@ REQUISITOS:
 - NÃO FUNCIONAIS:
 * Usabilidade : tela simples para o usuário de forma prática e rápida
 * Desempenho
-* Compatibilidade
+* Segurança
 
 ARQUITETURA DO SISTEMA:
 ![Screenshot](CASO_USO.drawio.png)</br>
