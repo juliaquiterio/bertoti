@@ -16,7 +16,11 @@ REQUISITOS:
 * Segurança
 
 ARQUITETURA DO SISTEMA:
-![Screenshot](CASO_USO.drawio.png)</br>
+<br>
+![Screenshot](CASO_USO.drawio.png)<br>
+![Screenshot](Diagrama_UML)<br>
+
+
 
 IMPLEMENTAÇÃO:
 
