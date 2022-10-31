@@ -17,7 +17,8 @@ REQUISITOS:
 
 ARQUITETURA DO SISTEMA:
 <br>
-![Screenshot](CASO_USO.drawio.png)<br>
+![CASO_USO drawio](https://user-images.githubusercontent.com/83841092/199119601-0695acd6-1b99-4f5d-94b7-7da850969330.png)
+
 ![Diagrama_UML](https://user-images.githubusercontent.com/83841092/193362003-eb634da9-9603-4cb3-8a2d-a40d4cdceff1.jpg)
 
 
