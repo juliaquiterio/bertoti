@@ -22,7 +22,8 @@ ARQUITETURA DO SISTEMA:
 ![CASO_USO drawio](https://user-images.githubusercontent.com/83841092/199119601-0695acd6-1b99-4f5d-94b7-7da850969330.png)
 
 # Caso de uso
-![Diagrama_VestibulinhoETEC_UML drawio](https://user-images.githubusercontent.com/83841092/200432333-ed6e44d7-ef5f-47f5-9b48-85b4014ad1c6.png)
+![Diagrama_VestibulinhoETEC_UML drawio (1)](https://user-images.githubusercontent.com/83841092/200433466-7a70fa2a-7098-4c32-b941-b510693063fb.png)
+
 
 
 
