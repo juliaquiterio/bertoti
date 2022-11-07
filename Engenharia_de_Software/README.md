@@ -19,10 +19,12 @@ REQUISITOS:
 ARQUITETURA DO SISTEMA:
 <br>
 # Ciclo de vida
-![CASO_USO drawio](https://user-images.githubusercontent.com/83841092/199119601-0695acd6-1b99-4f5d-94b7-7da850969330.png)
+![CASO_USO drawio](https://user-images.githubusercontent.com/83841092/200435865-e54b5447-fd1c-4b81-acb1-20f72c531752.png)
+
 
 # Caso de uso
-![Diagrama_VestibulinhoETEC_UML drawio (1)](https://user-images.githubusercontent.com/83841092/200433466-7a70fa2a-7098-4c32-b941-b510693063fb.png)
+![Diagrama_VestibulinhoETEC_UML drawio (2)](https://user-images.githubusercontent.com/83841092/200435149-fb9f34b7-3dbe-45d2-9886-a60bb3752f9a.png)
+
 
 
 
