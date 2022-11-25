@@ -19,7 +19,8 @@ REQUISITOS:
 ARQUITETURA DO SISTEMA:
 <br>
 # Ciclo de vida
-![CASO_USO drawio](https://user-images.githubusercontent.com/83841092/200435865-e54b5447-fd1c-4b81-acb1-20f72c531752.png)
+![CASO_USO drawio (1)](https://user-images.githubusercontent.com/83841092/204061156-e28cd754-fc81-42d1-8314-64685abe9e88.png)
+
 
 
 # Caso de uso
