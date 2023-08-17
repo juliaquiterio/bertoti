@@ -37,13 +37,13 @@ Dom Rock
 <h3>Tecnologias Aplicadas</h3>
 
 <h3>Contribuições Pessoais</h3>
-<p>Eu pude contribuir como Product Owner, mais conhecido como PO do nosso grupo Vox. Assim realizando o levantamento dos requisitos que mais faziam sentido. E em paralelo pude contribuir com o Back-end do projeto atuando tanto na parte do Banco de Dados, quanto no código. </br> 
+<p>Eu pude contribuir como Product Owner , mais conhecido como PO do nosso grupo Vox. Assim realizando o levantamento dos requisitos que mais faziam sentido. E em paralelo pude contribuir com o Back-end do projeto atuando tanto na parte do Banco de Dados, quanto no código. </br> 
 Sendo as atividades desempenhadas:
 </p>
  
  - Definição dos Requisitos;
  - Desenvolvimento da Tela de Login do Usuário;
- - Apoio ao Desenvolvimento DDL / DML;
+ - Apoio ao Desenvolvimento DDL / DML;;
 
 <h3>Lições Aprendidas</h3>
 
