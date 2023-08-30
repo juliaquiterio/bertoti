@@ -10,4 +10,4 @@ onde poderia gerar um duplicação de código.
 
 __Site para usar o Strategy:__ https://refactoring.guru/design-patterns/strategy
 
-![Uploading Diagram_classe_strategy.png…]()
+![Alt text](Diagram_classe_strategy-1.png)
