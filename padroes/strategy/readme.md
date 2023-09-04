@@ -2,8 +2,9 @@
 
 <p> O strategy é um comportamento onde usamos a Interface para podemos evitar de usar o polimorfismo,
 onde poderia gerar um duplicação de código.
+ 
 
-//O Strategy encapsula uma familia de algoritmos (Locomocao)
+//O Strategy encapsula uma familia de algoritmos (Locomocao).
 // e os torna intercambiaveis por polimorfismo
 
 </p>
