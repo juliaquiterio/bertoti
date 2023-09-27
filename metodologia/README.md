@@ -69,18 +69,32 @@ Sales Vox é uma aplicação web de um Sistema de Gerenciamento de Vendas com fo
          </p>
 
 <h3>Contribuições Pessoais</h3>
+
+
 <p>Eu pude contribuir como Product Owner , mais conhecido como PO do nosso grupo Vox. Assim realizando o levantamento dos requisitos que mais faziam sentido. E em paralelo pude contribuir com o Back-end do projeto atuando tanto na parte do Banco de Dados, quanto no código. </br>
 Sendo as atividades desempenhadas:
 </p>
  
- - Definição dos Requisitos;
- - Desenvolvimento da Tela de Login do Usuário;
- - Apoio ao Desenvolvimento DDL / DML;;
+ - __Definição dos Requisitos:__ Como Product Owner eu pude fazer o Backlog do Produto que era alinhado de acordo com os requisitos prioritários do Produto seguindo a metodologia de projeto do Scrum Master, que defini seguindo o que seria de maior valor (entregável) a cada Sprint. E pude também montar o Burndown usando a ferramenta de Excel onde tinhamos uma maior visibilidade do tempo que estava percorrendo.
+
+ Segue o link abaixo das descrições para maior visibilidade:
+
+<a href= https://github.com/equipe-vox/api-3sem#backlog-do-produto>Backlog do Produto</a> •
+<a href= https://github.com/equipe-vox/api-3sem#link-disponivel-do-burndown> Burndown do Produto</a>
+
+
+ - __Desenvolvimento da Tela de Login do Usuário:__ Como desenvolvedora eu pude lidar com a Tecnologia do Spring Boot focada no Backend onde usamos juntamente com a Arquitetura Rest podendo criar as rotas para o Login do Usuário, onde ele poderia acessar a rota permitindo a persona de Usuário acessar a aplicação.
+
+Segue o link abaixo das descrições para maior visibilidade:
+
+<a href=https://github.com/equipe-vox/api-3sem/tree/main/api>Desenvolvimento</a>
+ - Apoio ao Desenvolvimento DDL / DML: detalhar
 
 <h3>Lições Aprendidas</h3>
 
-<p>
+<p>Como Product Owner(PO)pude aprender o dia a dia de como lidar e principalmente se comunicar com o cliente, e como isso é de suma importância para o desenvolvimento de um projeto, e que a organização é um ponto tamném que não pode ser deixado de lado , trabalhando juntamente com o time de desenvolvedores.
+</p>
 
-
+<p>Como Desenvolvedora....
 </p>
 
