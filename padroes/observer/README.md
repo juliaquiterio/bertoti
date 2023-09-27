@@ -6,3 +6,8 @@
 </p>
 
 __Site para usar o Observer:__ https://refactoring.guru/design-patterns/observer
+
+
+<h2>Diagrama UML</h2>
+
+<img src = "UML_observer.png" width="400px">
