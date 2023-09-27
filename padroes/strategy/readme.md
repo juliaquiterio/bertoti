@@ -11,7 +11,7 @@ onde poderia gerar um duplicação de código.
 
 __Site para usar o Strategy:__ https://refactoring.guru/design-patterns/strategy
 
-<img src = "Diagram_classe_strategy.png" width="700px">
+<img src = "UML_strategy.png" width="700px">
 
 
 
