@@ -8,7 +8,7 @@ public class Aluno {
 	private Curso curso;
 	
 	public void setCurso(Curso curso) {
-		curso = curso;
+		this.curso = curso;
 	}
 
 	public void fazerCurso() {
