@@ -1,11 +1,11 @@
-<h1> OBSERVER </h1>
+<h1> COMPOSITE </h1>
 
-<p> o padrão Observer é usado para implementar a comunicação entre objetos de maneira flexível e eficiente, especialmente quando há necessidade de notificar múltiplos objetos sobre mudanças em um objeto principal</p>
+<p> o padrão Composite ele pode ser considerado com o conceito de árvore, pois nele há os componentes.</p>
  
 
 </p>
 
-__Site para usar o Observer:__ https://refactoring.guru/design-patterns/observer
+__Site para usar o Composite:__ https://refactoring.guru/design-patterns/observer
 
 
 <h2>Diagrama UML</h2>
