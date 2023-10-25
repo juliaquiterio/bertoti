@@ -5,7 +5,7 @@
 
 </p>
 
-__Site para usar o Composite:__ https://refactoring.guru/design-patterns/observer
+__Site para usar o Composite:__ https://refactoring.guru/design-patterns/composite
 
 
 <h2>Diagrama UML</h2>
