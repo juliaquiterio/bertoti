@@ -1,10 +1,10 @@
 # PortifolioBancoDeDados
 Repositório Dedicado ao Portifólio do API - Banco de Dados
 
-# Sobre mim
-Me chamo Júlia, tenho 20 anos, e atualmente sou estudante do 4º semestre no Banco de Dados. E sou estagiária em Dados, mais especificamente em Business Intelligence.
+Este repositório é dedicado ao Portifólio dos Projetos Integradores que envolve o API , que são projetos dedicados a aplicação de todo o Aprendizado repassado em sala de aula, com o objetivo de maior aproveitamento de todo o conhecimento adquirido.
 
-Tenho experiência em Análise de Dados, como contrução de relatórios que auxiliam em insights e suporte a diversos clientes internos da empresa. A Aplicação de Projeto Integrador (API) me proporcionou uma bagagem de experiência que posso diariamente aplicar em meu dia a dia no ambiente universitário e corporativo.
+# Sobre mim
+Me chamo Júlia Pereira Quitério, e estudo Banco de Dados na Fatec, localizada em São José dos Campos (SP). Tenho admimiração pelo mundo dos dados e de tecnologia e atualmente trabalho como Analista de Dados com foco em meios de pagamentos, podendo destacar meus aprendizados e torná-los ainda mais visiveis podendo contribuir e aprender , com os projetos API posso me desenvolver e aprender mais sobre novas tecnologias e tendo uma abordagem geral, não apenas focada em Banco de Dados mas tanto como outras hard e soft skills.
 
 
 Trabalho de Graduação(TG) na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos, como parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados.
@@ -36,13 +36,14 @@ Parceiro Acadêmico: <a href="https://www.domrock.net/">Dom Rock</a>
 <h3>Descrição do Projeto</h3>
 Sales Vox é uma aplicação web de um Sistema de Gerenciamento de Vendas com foco em auxiliar os vendedores a terem uma visão sobre suas vendas e o administrador que poderia ter um controle geral sobre.
 
-<h4><li><b>Objetivo Geral</b></li></h4>
+<h4><li><b>Desafio Proposto</b></li></h4>
         <p align="justify">
-       Desenvolvimento de um aplicativo web para gestão de Vendas com  foco em análise de dados através de Dashboards.
+       A empresa Dom Rock lançou um desafio aos alunos do curso de Banco de Dados para que auxiliasse na resolução para um obstáculo que era acompanhar alguns KPI's através de Dashboards de um sistema  de Gerenciamento de Vendas. Como solução geramos uma aplicação WEB  com Spring Boot possibilitando que o usuário acompanhasse 
+o andamento das vendas e pudesse tirar algumas respostas através do que os dados informavam.
         </p>
 
-
-<h3>Tecnologias Aplicadas</h3>
+<details>
+<summary>Tecnologias Aplicadas</summary>
 <img src="https://www.digics.si/wp-content/uploads/2020/09/spring_boot_logo.png" width="300" height="150">
 
 </p>
@@ -67,10 +68,12 @@ Sales Vox é uma aplicação web de um Sistema de Gerenciamento de Vendas com fo
          <p align="justify">
          Segundo <a href="https://www.danielimamura.com.br/manual-completo-do-mysql-workbench/">Danieli Mamura</a> MySQL Workbench é a ferramenta oficial do MySQL. É um ambiente completo que permite além de realizar consultas, criar diagramas e trabalhar com engenharia reversa.Utilizamos para o desenvolvimento do DDL das tabelas que utilizamos em nossa aplicação.
          </p>
+         </details>
 
 <h3>Contribuições Pessoais</h3>
 
-
+<details>
+    <summary>Metodologia Ágil</summary>
 <p>Eu pude contribuir como Product Owner , mais conhecido como PO do nosso grupo Vox. Assim realizando o levantamento dos requisitos que mais faziam sentido. E em paralelo pude contribuir com o Back-end do projeto atuando tanto na parte do Banco de Dados, quanto no código. </br>
 Sendo as atividades desempenhadas:
 </p>
@@ -82,19 +85,99 @@ Sendo as atividades desempenhadas:
 <a href= https://github.com/equipe-vox/api-3sem#backlog-do-produto>Backlog do Produto</a> •
 <a href= https://github.com/equipe-vox/api-3sem#link-disponivel-do-burndown> Burndown do Produto</a>
 
+</details>
 
- - __Desenvolvimento da Tela de Login do Usuário:__ Como desenvolvedora eu pude lidar com a Tecnologia do Spring Boot focada no Backend onde usamos juntamente com a Arquitetura Rest podendo criar as rotas para o Login do Usuário, onde ele poderia acessar a rota permitindo a persona de Usuário acessar a aplicação.
+
+<details>
+    <summary>Backend</summary>
+
+  __Desenvolvimento da Tela de Login do Vendedor:__
+   Como desenvolvedora eu pude lidar com a Tecnologia do Spring Boot focada no Backend onde usamos juntamente com a Arquitetura Rest podendo criar as rotas para o Login da persona (Vendedor), onde ele poderia acessar a rota permitindo o mesmo acessar a aplicação.
 
 Segue o link abaixo das descrições para maior visibilidade:
 
-<a href=https://github.com/equipe-vox/api-3sem/tree/main/api>Desenvolvimento</a>
- - Apoio ao Desenvolvimento DDL / DML: detalhar
+
+``` 
+@RestController
+@CrossOrigin(origins = "*")
+@RequestMapping("/vendedor")
+public class VendedorController {
+
+    @Autowired
+    private VendedorRepository vendedorRepository;
+
+@PostMapping("/login")
+    public ResponseEntity<?> login(@RequestBody LoginRequest loginRequest) {
+        String email = loginRequest.getEmail();
+        String senha = loginRequest.getSenha();
+
+        Vendedor vendedor = vendedorRepository.findByEmailAndSenha(email, senha);
+        Admin admin = adminRepository.findByEmailAndSenha(email, senha);
+
+        if (vendedor == null && admin == null) {
+            return new ResponseEntity<Vendedor>(HttpStatus.BAD_REQUEST);
+        }
+
+        if (admin != null) {
+            return new ResponseEntity<Admin>(admin, HttpStatus.OK);
+        }
+
+        return new ResponseEntity<Vendedor>(vendedor, HttpStatus.OK);
+    }
+```
+
+
+<a href=https://github.com/equipe-vox/api-3sem/tree/main/api>Acesse aqui o repositório</a>
+ - Apoio ao Desenvolvimento do Banco de Dados: Fui responsável por dar o apoio a modelagem de Dados tanto as etapas de DER quanrto MER e o DDL.
+
+ Segue abaixo um trecho do DDL:
+
+ ```
+
+create database banco;
+use banco;
+
+create table administrador(
+    id bigint auto_increment primary key,
+    email varchar(50) not null,
+    nome varchar(50) not null,
+    senha text not null
+);
+
+create table vendedor(
+	id bigint auto_increment primary key,
+	nome varchar(50) not null,
+	nome_gerencia varchar(30) not null,
+	senha text not null
+);
+
+create table cliente(
+    id varchar(200) not null,
+    cod_cliente varchar(200) not null,
+    fk_vendedor bigint null,
+    nome varchar(50) not null,
+    primary key(id,cod_cliente),
+    foreign key (fk_vendedor) references vendedor(id)
+);
+
+```
+
+
+ </details>
 
 <h3>Lições Aprendidas</h3>
 
-<p>Como Product Owner(PO)pude aprender o dia a dia de como lidar e principalmente se comunicar com o cliente, e como isso é de suma importância para o desenvolvimento de um projeto, e que a organização é um ponto tamném que não pode ser deixado de lado , trabalhando juntamente com o time de desenvolvedores.
+<p>
+Como Product Owner(PO) pude aprender o dia a dia de como lidar e principalmente se comunicar com o cliente, e como isso é de suma importância para o desenvolvimento de um projeto, e que a organização é um ponto  que não pode ser deixado de lado , trabalhando juntamente com o time de desenvolvedores podemos alinhar os prazos e definir os requisitos de maior valor de entrega para o Cleinte.
 </p>
 
-<p>Como Desenvolvedora....
+<p>
+Como Desenvolvedora pude me desenvolver em Raciocínio Lógico e aprender mais sobre Spring Boot e ver como utilizá-lo para o desenvolvimento de projetos.E além da parte do BackEnd pude me desenvolver mais focada em Banco de Dados utilizando os conhecimentos passados em sala de aula e poder aplicar para desevolver a Modelagem dos dados.
+
 </p>
+
+
+
+
+
 
