@@ -72,32 +72,18 @@ o andamento das vendas e pudesse tirar algumas respostas através do que os dado
 
 <h3>Contribuições Pessoais</h3>
 
-<details>
-    <summary>Metodologia Ágil</summary>
-<p>Eu pude contribuir como Product Owner , mais conhecido como PO do nosso grupo Vox. Assim realizando o levantamento dos requisitos que mais faziam sentido. E em paralelo pude contribuir com o Back-end do projeto atuando tanto na parte do Banco de Dados, quanto no código. </br>
-Sendo as atividades desempenhadas:
-</p>
- 
- - __Definição dos Requisitos:__ Como Product Owner eu pude fazer o Backlog do Produto que era alinhado de acordo com os requisitos prioritários do Produto seguindo a metodologia de projeto do Scrum Master, que defini seguindo o que seria de maior valor (entregável) a cada Sprint. E pude também montar o Burndown usando a ferramenta de Excel onde tinhamos uma maior visibilidade do tempo que estava percorrendo.
-
- Segue o link abaixo das descrições para maior visibilidade:
-
-<a href= https://github.com/equipe-vox/api-3sem#backlog-do-produto>Backlog do Produto</a> •
-<a href= https://github.com/equipe-vox/api-3sem#link-disponivel-do-burndown> Burndown do Produto</a>
-
-</details>
-
 
 <details>
-    <summary>Backend</summary>
+    <summary>Backend - Rota HTTPs Login do Vendedor</summary>
 
   __Desenvolvimento da Tela de Login do Vendedor:__
    Como desenvolvedora eu pude lidar com a Tecnologia do Spring Boot focada no Backend onde usamos juntamente com a Arquitetura Rest podendo criar as rotas para o Login da persona (Vendedor), onde ele poderia acessar a rota permitindo o mesmo acessar a aplicação.
 
+
 Segue o link abaixo das descrições para maior visibilidade:
 
 
-``` 
+```
 @RestController
 @CrossOrigin(origins = "*")
 @RequestMapping("/vendedor")
@@ -128,7 +114,15 @@ public class VendedorController {
 
 
 <a href=https://github.com/equipe-vox/api-3sem/tree/main/api>Acesse aqui o repositório</a>
- - Apoio ao Desenvolvimento do Banco de Dados: Fui responsável por dar o apoio a modelagem de Dados tanto as etapas de DER quanrto MER e o DDL.
+
+</details>
+
+
+<details>
+<summary>Modelagem de dados - DDL</summary>
+
+__Apoio ao Desenvolvimento do Banco de Dados:__
+ Fui responsável por dar o apoio a modelagem de Dados tanto as etapas de DER quanto MER e o DDL. Podendo aplicar os conhecimenro adquiridos em sala de aula.
 
  Segue abaixo um trecho do DDL:
 
@@ -165,16 +159,53 @@ create table cliente(
 
  </details>
 
+
+ <details>
+    <summary>Metodologia Ágil</summary>
+<p>Eu pude contribuir como Product Owner , mais conhecido como PO do nosso grupo Vox. Assim realizando o levantamento dos requisitos que mais faziam sentido. E em paralelo pude contribuir com o Back-end do projeto atuando tanto na parte do Banco de Dados, quanto no código. </br>
+Sendo as atividades desempenhadas:
+</p>
+ 
+ - __Definição dos Requisitos:__ Como Product Owner eu pude fazer o Backlog do Produto que era alinhado de acordo com os requisitos prioritários do Produto seguindo a metodologia de projeto do Scrum Master, que defini seguindo o que seria de maior valor (entregável) a cada Sprint. E pude também montar o Burndown usando a ferramenta de Excel onde tinhamos uma maior visibilidade do tempo que estava percorrendo.
+
+ Segue o link abaixo das descrições para maior visibilidade:
+
+<a href= https://github.com/equipe-vox/api-3sem#backlog-do-produto>Backlog do Produto</a> •
+<a href= https://github.com/equipe-vox/api-3sem#link-disponivel-do-burndown> Burndown do Produto</a>
+
+</details>
+
 <h3>Lições Aprendidas</h3>
 
-<p>
-Como Product Owner(PO) pude aprender o dia a dia de como lidar e principalmente se comunicar com o cliente, e como isso é de suma importância para o desenvolvimento de um projeto, e que a organização é um ponto  que não pode ser deixado de lado , trabalhando juntamente com o time de desenvolvedores podemos alinhar os prazos e definir os requisitos de maior valor de entrega para o Cleinte.
-</p>
 
 <p>
 Como Desenvolvedora pude me desenvolver em Raciocínio Lógico e aprender mais sobre Spring Boot e ver como utilizá-lo para o desenvolvimento de projetos.E além da parte do BackEnd pude me desenvolver mais focada em Banco de Dados utilizando os conhecimentos passados em sala de aula e poder aplicar para desevolver a Modelagem dos dados.
 
+
+   __- Hard Skills:__ <br>
+   Java (Spring Boot) <br>
+   Modelagem em Banco de Dados
+
+
+   __- Soft Skills:__ <br>
+   Organização <br>
+   Proatividade
 </p>
+
+
+<p>
+Como Product Owner(PO) pude aprender o dia a dia de como lidar e principalmente se comunicar com o cliente, e como isso é de suma importância para o desenvolvimento de um projeto, e que a organização é um ponto  que não pode ser deixado de lado , trabalhando juntamente com o time de desenvolvedores podemos alinhar os prazos e definir os requisitos de maior valor de entrega para o Cleinte.
+
+
+   __- Hard Skills:__ <br>
+   Ferramenta de Auxilio para Metodologia<br>
+
+   __- Soft Skills:__ <br>
+   Organização <br>
+   Gestão de Projeto <br>
+
+</p>
+
 
 
 
