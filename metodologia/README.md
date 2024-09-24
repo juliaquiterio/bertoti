@@ -1,16 +1,26 @@
-# PortifolioBancoDeDados
+# Portifólio - Júlia Pereira Quitério
 Repositório Dedicado ao Portifólio do API - Banco de Dados
 
 Este repositório é dedicado ao Portifólio dos Projetos Integradores que envolve o API , que são projetos dedicados a aplicação de todo o Aprendizado repassado em sala de aula, com o objetivo de maior aproveitamento de todo o conhecimento adquirido.
 
 # Sobre mim
+
+<img src="![Sem título](https://github.com/user-attachments/assets/45efdc1d-84b1-4584-9d28-046e66e59cb0)" width="300" height="200">
+
 Me chamo Júlia Pereira Quitério, e estudo Banco de Dados na Fatec, localizada em São José dos Campos (SP). Tenho admimiração pelo mundo dos dados e de tecnologia e atualmente trabalho como Analista de Dados com foco em meios de pagamentos, podendo destacar meus aprendizados e torná-los ainda mais visiveis podendo contribuir e aprender , com os projetos API posso me desenvolver e aprender mais sobre novas tecnologias e tendo uma abordagem geral, não apenas focada em Banco de Dados mas tanto como outras hard e soft skills.
 
 
 Trabalho de Graduação(TG) na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos, como parte dos requisitos necessários para a obtenção do título de Tecnólogo em Banco de Dados.
 
-# Projetos
+# Projetos API
 
+
+<details><summary>1º semestre</summary>
+</details>
+
+-----
+
+<details><summary>3º semestre</summary>
 Dom Rock
 
 <h3> 3º semestre - 2/2023 </h3>
@@ -205,7 +215,9 @@ Como Product Owner(PO) pude aprender o dia a dia de como lidar e principalmente 
    Gestão de Projeto <br>
 
 </p>
+</details>
 
+----
 
 
 
